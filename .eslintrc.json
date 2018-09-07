@@ -1,0 +1,9 @@
+{
+	"root": true,
+	"extends": "cortys",
+	"globals": {
+		"process": false,
+		"__dirname": false,
+		"__filename": false
+	}
+}
