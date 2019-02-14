@@ -18,7 +18,7 @@ module.exports = bundler => {
 		replace.sync({
 			files: bundle.name,
 			from: /(?<!<!--webcomponents-->[^]*)<script/,
-			to: `<!--webcomponents--><script src="${path.join(bundler.options.publicURL, "webcomponentsjs/webcomponents-loader.js")}"></script><script`
+			to: `<!--webcomponents--><script src="${path.posix.join(bundler.options.publicURL, "webcomponentsjs/webcomponents-loader.js")}"></script><script`
 		});
 	});
 };

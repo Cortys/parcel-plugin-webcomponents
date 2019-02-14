@@ -1,6 +1,6 @@
 {
 	"name": "parcel-plugin-webcomponents",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A parcel plugin that autoincludes the webcomponentsjs polyfill.",
 	"main": "src/plugin.js",
 	"repository": {
@@ -26,8 +26,8 @@
 		"parcel-bundler": "~1"
 	},
 	"devDependencies": {
-		"eslint": "^5.5.0",
+		"eslint": "^5.13.0",
 		"eslint-config-cortys": "^2.0.0",
-		"parcel-bundler": "^1.9.7"
+		"parcel-bundler": "^1.11.0"
 	}
 }
