@@ -1,6 +1,6 @@
 {
 	"name": "parcel-plugin-webcomponents",
-	"version": "1.2.4",
+	"version": "1.2.5",
 	"description": "A parcel plugin that autoincludes the webcomponentsjs polyfill.",
 	"main": "src/plugin.js",
 	"scripts": {
